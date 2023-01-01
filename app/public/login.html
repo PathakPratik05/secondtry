@@ -1,0 +1,204 @@
+<html>
+<header>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+        integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="../bootstrap-4.6.2-dist/js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../bootstrap-4.6.2-dist/css/bootstrap.css">
+    </link>
+    <style>
+        #mainHead {
+            /* margin-top: 20px; */
+            /* background-color: rgb(54, 54, 207); */
+            background-color: #002f72;
+            top: 0px;
+
+
+        }
+
+        .button:hover {
+            background-color: rgb(6, 6, 168);
+            border-radius: 50%;
+
+
+
+        }
+
+        #div2 {
+            position: absolute;
+            bottom: 260px;
+            left: 20%;
+
+
+        }
+
+        #div3 {
+
+            margin-left: 20%
+        }
+    </style>
+
+</header>
+
+<body>
+    <div id="div">
+        <div id="mainHead">
+            <fieldset>
+                <form>
+                    <table style="color: white; ">
+                        <tr>
+                            <td><br></td>
+                        </tr>
+                        <tr>
+                            <td style="font-size: 26; padding-left: 150px;"><b>Booking.com</b></td>
+                            <td style="font-size: 20; padding-left: 450px;">INR</td>
+                            <td style="padding-left: 20px;"><img src="IND.png" style="height: 30px; width: 30px;"
+                                    class="rounded-circle"></td>
+                            <td style="padding-left: 20px;"><img src="Qmark.png" height="30px" width="30px"
+                                    class="rounded-circle"></td>
+                            <td style="padding-left: 20px;  "><button
+                                    style="background-color: #002f72; color: white; border-color: white; font-size: 20px; width: 150px; height: 40px; font-size: 15px; padding: 05px;">List
+                                    your property</button></td>
+                            <td style="padding-left: 15px;  "><button>Register</button></td>
+                            <td style="padding-left: 15px;  "><button>Sign In</button></td>
+                        </tr>
+
+                    </table>
+                    <table style="color: white; margin-top: 40px;">
+
+                        <tr>
+                            <td style="  padding-left: 150px;"><button class="button"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-house" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
+                                    </svg>&nbsp;<b>Stay</b></button>
+                            </td>
+                            <td style="  padding-left: 50px;"><button class="button"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-airplane" viewBox="0 0 16 16">
+                                        <path
+                                            d="M6.428 1.151C6.708.591 7.213 0 8 0s1.292.592 1.572 1.151C9.861 1.73 10 2.431 10 3v3.691l5.17 2.585a1.5 1.5 0 0 1 .83 1.342V12a.5.5 0 0 1-.582.493l-5.507-.918-.375 2.253 1.318 1.318A.5.5 0 0 1 10.5 16h-5a.5.5 0 0 1-.354-.854l1.319-1.318-.376-2.253-5.507.918A.5.5 0 0 1 0 12v-1.382a1.5 1.5 0 0 1 .83-1.342L6 6.691V3c0-.568.14-1.271.428-1.849Zm.894.448C7.111 2.02 7 2.569 7 3v4a.5.5 0 0 1-.276.447l-5.448 2.724a.5.5 0 0 0-.276.447v.792l5.418-.903a.5.5 0 0 1 .575.41l.5 3a.5.5 0 0 1-.14.437L6.708 15h2.586l-.647-.646a.5.5 0 0 1-.14-.436l.5-3a.5.5 0 0 1 .576-.411L15 11.41v-.792a.5.5 0 0 0-.276-.447L9.276 7.447A.5.5 0 0 1 9 7V3c0-.432-.11-.979-.322-1.401C8.458 1.159 8.213 1 8 1c-.213 0-.458.158-.678.599Z" />
+                                    </svg>&nbsp;<b>Flight</b></button>
+                            </td>
+                            <td style=" padding-left: 50px;"><button class="button" class="bi bi-car-front"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-globe" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z" />
+                                    </svg>&nbsp;<b>Flight
+                                        +Hotel</b></button></td>
+                            <td style=" padding-left: 50px;"><button class="button"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-car-front" viewBox="0 0 16 16">
+                                        <path
+                                            d="M4 9a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0ZM6 8a1 1 0 0 0 0 2h4a1 1 0 1 0 0-2H6ZM4.862 4.276 3.906 6.19a.51.51 0 0 0 .497.731c.91-.073 2.35-.17 3.597-.17 1.247 0 2.688.097 3.597.17a.51.51 0 0 0 .497-.731l-.956-1.913A.5.5 0 0 0 10.691 4H5.309a.5.5 0 0 0-.447.276Z" />
+                                        <path
+                                            d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298 1.515l.792 1.848c.075.175.21.319.38.404.5.25.855.715.965 1.262l.335 1.679c.033.161.049.325.049.49v.413c0 .814-.39 1.543-1 1.997V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.338c-1.292.048-2.745.088-4 .088s-2.708-.04-4-.088V13.5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1-.5-.5v-1.892c-.61-.454-1-1.183-1-1.997v-.413a2.5 2.5 0 0 1 .049-.49l.335-1.68c.11-.546.465-1.012.964-1.261a.807.807 0 0 0 .381-.404l.792-1.848ZM4.82 3a1.5 1.5 0 0 0-1.379.91l-.792 1.847a1.8 1.8 0 0 1-.853.904.807.807 0 0 0-.43.564L1.03 8.904a1.5 1.5 0 0 0-.03.294v.413c0 .796.62 1.448 1.408 1.484 1.555.07 3.786.155 5.592.155 1.806 0 4.037-.084 5.592-.155A1.479 1.479 0 0 0 15 9.611v-.413c0-.099-.01-.197-.03-.294l-.335-1.68a.807.807 0 0 0-.43-.563 1.807 1.807 0 0 1-.853-.904l-.792-1.848A1.5 1.5 0 0 0 11.18 3H4.82Z" />
+                                    </svg>&nbsp;<b>Car
+                                        rentals</b></button></td>
+                            <td style=" padding-left: 50px;"><button class="button"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-tree" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z" />
+                                    </svg>&nbsp;<b>Attractions</b></button>
+                            </td>
+                            <td style=" padding-left: 50px;"><button class="button"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-taxi-front-fill" viewBox="0 0 16 16">
+                                        <path
+                                            d="M6 1a1 1 0 0 0-1 1v1h-.181A2.5 2.5 0 0 0 2.52 4.515l-.792 1.848a.807.807 0 0 1-.38.404c-.5.25-.855.715-.965 1.262L.05 9.708a2.5 2.5 0 0 0-.049.49v.413c0 .814.39 1.543 1 1.997V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.338c1.292.048 2.745.088 4 .088s2.708-.04 4-.088V14.5a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1.892c.61-.454 1-1.183 1-1.997v-.413c0-.165-.016-.329-.049-.49l-.335-1.68a1.807 1.807 0 0 0-.964-1.261.807.807 0 0 1-.381-.404l-.792-1.848A2.5 2.5 0 0 0 11.181 3H11V2a1 1 0 0 0-1-1H6ZM4.309 4h7.382a.5.5 0 0 1 .447.276l.956 1.913a.51.51 0 0 1-.497.731c-.91-.073-3.35-.17-4.597-.17-1.247 0-3.688.097-4.597.17a.51.51 0 0 1-.497-.731l.956-1.913A.5.5 0 0 1 4.309 4ZM4 10a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm10 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0Zm-9 0a1 1 0 0 1 1-1h4a1 1 0 1 1 0 2H6a1 1 0 0 1-1-1Z" />
+                                    </svg>&nbsp;<b>Airport
+                                        taxis</b></button></td>
+
+                        </tr>
+                    </table>
+                    <h1 style="color: white; margin-top: 100px; margin-left: 150px;"><b>Find your next stay</b></h1>
+                    <h3 style="color: white; margin-top: 20px; margin-left: 150px;">Search low prices on hotel and much
+                        more...
+                    </h3>
+                    <br>
+                    <br>
+                    <br>
+
+
+                </form>
+            </fieldset>
+        </div>
+
+        <div id="div2">
+            <table align="center" cellpadding="0px" cellspacing="0px" border="5px "
+                style="border-color: orange; border-collapse: collapse; ">
+                <form>
+                    <tr>
+                        <td>
+                            <input type="text" name="wgo" id="wgo" placeholder="Where are you going"
+                                style="height: 50px; width: 250px; border: 0px;">
+                        </td>
+                        <td>
+                            <input type="date" name="wgo" id="wgo"
+                                style="height: 50px; border: 0px; width: 130px; content: attr(placeholder);"
+                                placeholder="check in date"><input type="date"
+                                style="height: 50px; border: 0; width: 130px; ">
+                        </td>
+                        <td>
+                            <input type="text" style="height: 50px; width: 250px; border: 5px;"
+                                placeholder="Enter no of people">
+                        </td>
+                        <td>
+                            <button type="submit"
+                                style="height: 50px; width: 200px; border: 5px; background-color: #043d8d;">Search</button>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+
+        </div>
+
+        <div id="div3">
+            <table>
+                <br>
+                <br>
+                <tr>
+                    <td align="center"><input type="checkbox" name="trav" id="trav"
+                            style="height: 20px; width: 20px;"><label for="trav" style="font-size: 20px;">&nbsp; I'm
+                            travelling for work</label>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+
+        <div>
+            <fieldset
+                style="border: 2px solid; height: 50px; width: 65%; margin-left: 20%; margin-top: 10px; font-size: 15px; vertical-align: middle; ">
+                <table style="vertical-align: middle;">
+                    <tr>
+                        <td style=" padding-left: 25px; padding-top: 10px; ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                class="bi bi-info-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="m8.93 6.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM9 4.5a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
+                            </svg>
+
+
+                        </td>
+
+                        <td style=" padding-left: 25px; padding-top: 10px;">
+                            Get the advice you need. Check the latest COVID-19 restrictions before you travel.
+                            <a href="#">Learn
+                                more</a>
+
+                        </td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
